@@ -72,7 +72,7 @@
         <h4>Filter</h4>
         <div class="btn-group" role="group" data-toggle="buttons">
           <label class="btn btn-default">
-              <input type="checkbox" id="togglefilter_quest" data-item-toggle="f_quest" />
+              <input type="checkbox" id="togglefilter_sidequest" data-item-toggle="f_sidequest" />
               <span class="glyphicon glyphicon-eye-close"></span>
               <span class="glyphicon glyphicon-eye-open"></span>
               Side Quests
@@ -121,7 +121,7 @@
           </label>
         </div>
 
-        <h2>Story Checklist<span id="playthrough_overall_total"></span></h2>
+        <h2><strong>Story Checklist</strong><span id="playthrough_overall_total"></span></h2>
         <ul class="table_of_contents">
           <li><a href="#First_Thing">Book 1</a> <span id="playthrough_nav_totals_17"></span></li>
          <li><a href="#Firelink_Shrine">Book 2</a> <span id="playthrough_nav_totals_1"></span></li>
@@ -155,9 +155,9 @@
 
           <h3 id="Firelink_Shrine"><a href="#Firelink_Shrine_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Book 2<span id="playthrough_totals_1"></span></h3>
           <ul id="Firelink_Shrine_col" class="collapse in">
-            <li data-id="playthrough_1_1" class="f_quest">San Robin's <a href="http://forums2.battleon.com/f/tm.asp?m=20343924">quests</a> at the inn in Falconreach</li>
+            <li data-id="playthrough_1_1" class="f_sidequest">San Robin's <a href="http://forums2.battleon.com/f/tm.asp?m=20343924">quests</a> at the inn in Falconreach</li>
             <li data-id="playthrough_1_2">Rift War</li>
-            <li data-id="playthrough_1_3" class="f_quest">True Mortal's <strong>Rise of Nivalis</strong> saga</li>
+            <li data-id="playthrough_1_3" class="f_sidequest">True Mortal's <strong>Rise of Nivalis</strong> saga</li>
             <li data-id="playthrough_1_4">Rising Fire</li>
             <li data-id="playthrough_1_5">Yolande's <a href="http://forums2.battleon.com/f/tm.asp?m=20129451">quests</a> at Atrea: <strong>The Hunt Begins</strong> through <strong>Master of Puppets</strong></li>
             <li data-id="playthrough_1_6"><strong>Alexander</strong> saga (Available after exploring the burned house at Swordhaven)</li>
@@ -217,7 +217,7 @@
 
       <!-- badge checklist -->
       <div class="tab-pane" id="tabBadges">
-        <h2>Badge Checklist<span id="checklist_overall_total"></span></h2>
+        <h2><strong>Badge Checklist</strong><span id="checklist_overall_total"></span></h2>
         <ul class="table_of_contents">
           <li><a href="#Quest_Badges">Quest Badges</a><span id="checklist_nav_totals_1"></span></li>
           <li><a href="#Holiday_Badges">Holiday Badges</a><span id="checklist_nav_totals_2"></span></li>
@@ -491,22 +491,24 @@
       </div>
 
       <div class="tab-pane" id="tabFAQ">      
-        <h2>Frequently Asked Questions</h2>
+        <h2><strong>Frequently Asked Questions</strong></h2>
 
         <h3>Do I need to follow the story checklist in order?</h3>
         <p>Only if you're looking for a better understanding of the story. Otherwise, no.</p>
 
+        <h3>Why is Book 2 so short?</h3>
+        <p>Geopetal explained why <a href="http://www.dragonfable.com/gamedesignnotes/if-you-can-dodge-a-wrench-5627">here</a>.</p>
+
         <h3>Can I use this for multiple characters?</h3>
-        <p>Yes. There's a profile feature where you can create, edit and delete your own profiles. You can find it by clicking the gear icon on the top left.</p>
+        <p>Yes. There's a profile feature where you can create, edit, delete, import and export your own profiles. You can find it by clicking the gear icon on the top left.</p>
 
         <h3>How are changes saved?</h3>
-        <p>Changes are saved on your browser's local storage. Clearing your browser's cache will also clear your saved changes.</p>
-        <p>You can Export your profiles to a file and save it on your computer, and import them from the saved file under settings.</p>
+        <p>Changes are saved on your browser's local storage. Clearing your browser's cache will also clear your saved changes. Alternatively, you can export your profile and save it on your computer.</p>
       </div>
 
       <!-- ARMOR START -->
       <div class="tab-pane" id="tabArmors">
-        <h2>Armor Checklist <span id="armors_overall_total"></span></h2>
+      <strong><h2>Armor Checklist <span id="armors_overall_total"></span></h2></strong>
         <ul class="table_of_contents">
           <li><a href="#Helms">Sunbreeze Grove</a> <span id="armors_nav_totals_1"></span></li>
           <li><a href="#Chests">Shadow of the Wind Village</a> <span id="armors_nav_totals_2"></span></li>
@@ -561,12 +563,10 @@
       </div>
 
       <div class="tab-pane" id="tabOptions">
-        <h2>Options</h2>
-
-        
+          <h2><strong>Options</strong></h2>
         <!-- Profile Selection -->
         <div class="row">
-          <div class="col col-md-6"><h4>Switch your profiles at will</h4></div>
+          <div class="col col-md-6"><h3>Profile</h3></div>
           <div class="col col-md-6">
             <form class="form-inline  pull-right">
               <div class="form-group"><select class="form-control" id="profiles"></select></div>
