@@ -1,3 +1,7 @@
+#eaemen {
+position:fixed;
+}
+
 .in_progress,
 .done {
   color: #C60;
