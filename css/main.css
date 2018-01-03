@@ -15,6 +15,12 @@ position:fixed;
 }
 .done { color: #009933; }
 
+#Right-Align-Hide-Completed{
+  padding-top: 7px;
+  position: absolute;
+  right: 10px;
+}
+
 @media print {
     body { color: #000; }
     .navbar, #intro, input[type="checkbox"], .done, .in_progress { display: none; }
