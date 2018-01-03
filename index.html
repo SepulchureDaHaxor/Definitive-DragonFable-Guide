@@ -49,7 +49,7 @@
     <div class="row">
       <div class="col-md-12 text-center">
         <h1>Definitive Dragonfable Guide</h1>
-        <p class="lead">Contribute to the guide at the <a href="https://github.com/Cedrei/DragonFable-Chronology-Guide">GitHub Page</a>, or give us feedback on the <a href="https://discord.gg/SC3zM3v">DragonFable Discord server</a>!</p>
+        <p class="lead">Contribute to the guide at the <a href="https://github.com/Cedrei/DragonFable-Chronology-Guide">GitHub page</a>, or give us feedback on the <a href="https://discord.gg/SC3zM3v">DragonFable Discord server</a>!</p>
       </div>
     </div>
 
@@ -120,7 +120,7 @@
           </label>
         </div>
 
-        <h2>Chronology Checklist<span id="playthrough_overall_total"></span></h2>
+        <h2>Story Checklist<span id="playthrough_overall_total"></span></h2>
         <ul class="table_of_contents">
           <li><a href="#First_Thing">Book 1</a> <span id="playthrough_nav_totals_17"></span></li>
          <li><a href="#Firelink_Shrine">Book 2</a> <span id="playthrough_nav_totals_1"></span></li>
@@ -223,7 +223,7 @@
         <!-- END Walkthrough -->
       </div>
 
-      <!-- CHECKLIST START -->
+      <!-- badge checklist -->
       <div class="tab-pane" id="tabChecklists">
         <h2>Badge Checklist<span id="checklist_overall_total"></span></h2>
         <ul class="table_of_contents">
@@ -501,7 +501,20 @@
           </tbody>
         </table>
       </div>
-      
+
+      <div class="tab-pane" id="tabFAQ">      
+        <h2>Frequently Asked Questions</h2>
+
+        <h3>Do I need to follow the story checklist in order?</h3>
+        <p>Only if you're looking for a better understanding of the story. Otherwise, no.</p>
+
+        <h3>Can I use this for multiple characters?</h3>
+        <p>Yes. There's a profile feature where you can create, edit and delete your own profiles. You can find it by clicking the gear icon on the top left.</p>
+
+        <h3>How are changes saved?</h3>
+        <p>Changes are saved on your browser's local storage. Clearing your browser's cache will also clear your saved changes.</p>
+      </div>
+
       <!-- ARMOR START -->
       <div class="tab-pane" id="tabArmors">
         <h2>Armor Checklist <span id="armors_overall_total"></span></h2>
@@ -558,19 +571,6 @@
         </div>
       </div>
 
-      <div class="tab-pane" id="tabFAQ">      
-        <h2>Frequently Asked Questions</h2>
-
-        <h3>Do I need to follow the chronology guide in order?</h3>
-        <p>Only if you're looking for a better understanding of the story. Otherwise, no.</p>
-
-        <h3>Can I use this for multiple characters?</h3>
-        <p>Yes. There's a profile feature where you can create, edit and delete your own profiles. You can find it by clicking the gear icon on the top left.</p>
-
-        <h3>How are changes saved?</h3>
-        <p>Changes are saved on your browser's local storage. Clearing your browser's cache will also clear your saved changes.</p>
-      </div>
-
       <div class="tab-pane" id="tabOptions">
         <h2>Profile</h2>
 
@@ -619,33 +619,29 @@
       <!-- /.modal -->
     </div>
     <!-- tab-content -->
+     <!-- Theme Selection -->
+     <div id="eaemen"><select class="form-control" id="themes"><!-- Gets filled by jQuery. --></select></div>
+     <div class="hiddenfile">
+       <input name="upload" type="file" id="fileInput" />
+     </div>
+   
+     <a href="#" class="back-to-top">Back to Top</a>
+   
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+     <script src="https://cdn.rawgit.com/andris9/jStorage/v0.4.12/jstorage.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jets/0.8.0/jets.min.js"></script>
+     <script src="js/jquery.highlight.js"></script>
+     <script src="js/main.js"></script>
+     <script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+       ga('create', 'UA-66576837-1', 'auto');
+       ga('send', 'pageview');
+     </script>
   </div>
   <!-- container -->
-
-        <!-- Theme Selection -->
-        <div class="row">
-          <div class="col col-md-8"><h3>Theme Selector</h3></div>
-          <div class="col col-md-4"><select class="form-control" id="themes"><!-- Gets filled by jQuery. --></select></div>
-        </div>
-  <div class="hiddenfile">
-    <input name="upload" type="file" id="fileInput" />
-  </div>
-
-  <a href="#" class="back-to-top">Back to Top</a>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="https://cdn.rawgit.com/andris9/jStorage/v0.4.12/jstorage.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jets/0.8.0/jets.min.js"></script>
-  <script src="js/jquery.highlight.js"></script>
-  <script src="js/main.js"></script>
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-66576837-1', 'auto');
-    ga('send', 'pageview');
-  </script>
 </body>
 </html>
