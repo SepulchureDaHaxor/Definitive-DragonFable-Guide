@@ -34,7 +34,6 @@
           <li><a href="#tabOptions" data-toggle="tab"><span class="glyphicon glyphicon-cog"></span></a></li>
           <li class="active"><a href="#tabPlaythrough" data-toggle="tab">Story</a></li>
           <li><a href="#tabBadges" data-toggle="tab">Badges</a></li>
-          <li><a href="#tabArmors" data-toggle="tab">Classes</a></li>
           <li><a href="#bis" data-toggle="tab">BiS</a></li>
           <li><a href="#tabFAQ" data-toggle="tab"><span class="glyphicon glyphicon-question-sign"></span> FAQ</a></li>
         </ul>
@@ -72,53 +71,17 @@
         <!-- Toolbar -->
         <h4>Filter</h4>
         <div class="btn-group" role="group" data-toggle="buttons">
+        	<label class="btn btn-default">
+              <input type="checkbox" id="togglefilter_seasonal" data-item-toggle="f_seasonal" />
+              <span class="glyphicon glyphicon-eye-close"></span>
+              <span class="glyphicon glyphicon-eye-open"></span>
+              Seasonal Events
+          </label>
           <label class="btn btn-default">
               <input type="checkbox" id="togglefilter_sidequest" data-item-toggle="f_sidequest" />
               <span class="glyphicon glyphicon-eye-close"></span>
               <span class="glyphicon glyphicon-eye-open"></span>
               Side Quests
-          </label>
-          <label class="btn btn-default">
-              <input type="checkbox" id="togglefilter_npc" data-item-toggle="f_npc" />
-              <span class="glyphicon glyphicon-eye-close"></span>
-              <span class="glyphicon glyphicon-eye-open"></span>
-              NPCs
-          </label>
-          <label class="btn btn-default">
-              <input type="checkbox" id="togglefilter_weapon" data-item-toggle="f_gear" />
-              <span class="glyphicon glyphicon-eye-close"></span>
-              <span class="glyphicon glyphicon-eye-open"></span>
-              Gear
-          </label>
-          <label class="btn btn-default">
-              <input type="checkbox" id="togglefilter_ring" data-item-toggle="f_ring" />
-              <span class="glyphicon glyphicon-eye-close"></span>
-              <span class="glyphicon glyphicon-eye-open"></span>
-              Rings
-          </label>
-          <label class="btn btn-default">
-              <input type="checkbox" id="togglefilter_spell" data-item-toggle="f_spell" />
-              <span class="glyphicon glyphicon-eye-close"></span>
-              <span class="glyphicon glyphicon-eye-open"></span>
-              Spells
-          </label>
-          <label class="btn btn-default">
-              <input type="checkbox" id="togglefilter_estus" data-item-toggle="f_estus" />
-              <span class="glyphicon glyphicon-eye-close"></span>
-              <span class="glyphicon glyphicon-eye-open"></span>
-              Estus
-          </label>
-          <label class="btn btn-default">
-              <input type="checkbox" id="togglefilter_materials" data-item-toggle="f_mat" />
-              <span class="glyphicon glyphicon-eye-close"></span>
-              <span class="glyphicon glyphicon-eye-open"></span>
-              Materials
-          </label>
-          <label class="btn btn-default">
-              <input type="checkbox" id="togglefilter_misc" data-item-toggle="f_misc" />
-              <span class="glyphicon glyphicon-eye-close"></span>
-              <span class="glyphicon glyphicon-eye-open"></span>
-              Misc
           </label>
         </div>
 
@@ -333,21 +296,21 @@
             <li data-id="checklist_4_7"><strong><a href="http://forums2.battleon.com/f/tm.asp?m=20717259">Gourmet</a></strong>: Reach rank 6 in <a href="http://forums2.battleon.com/f/tm.asp?m=16081608">cooking</a> at Gretel's bakery in Falconreach (Currently bugged, awarded by default)</li>
           </ul>
 
-          <h3 id="Armor_Badges"><a href="#Armor_Badges_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Random Badges<span id="checklist_totals_5"></span></h3>
+          <h3 id="Armor_Badges"><a href="#Armor_Badges_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Armor Badges<span id="checklist_totals_5"></span></h3>
           <ul id="Armor_Badges_col" class="collapse in">
-            <li data-id="checklist_5_1"><strong><a href="http://forums2.battleon.com/f/tm.asp?m=20702712">Base Armor</a></strong>: DESCRIPTIONBEGINNING<a href="HTML">LINKEDTEXT</a>DESCRIPTIONCONTINUED</li>
-            <li data-id="checklist_5_2"><strong><a href="http://forums2.battleon.com/f/tm.asp?m=20707652">Guardian</a></strong>: DESCRIPTIONBEGINNING<a href="HTML">LINKEDTEXT</a>DESCRIPTIONCONTINUED</li>
-            <li data-id="checklist_5_3"><strong><a href="http://forums2.battleon.com/f/tm.asp?m=20707684">DeathKnight</a></strong>: DESCRIPTIONBEGINNING<a href="HTML">LINKEDTEXT</a>DESCRIPTIONCONTINUED</li>
-            <li data-id="checklist_5_4"><strong><a href="http://forums2.battleon.com/f/tm.asp?m=20707688">DragonLord</a></strong>: DESCRIPTIONBEGINNING<a href="HTML">LINKEDTEXT</a>DESCRIPTIONCONTINUED</li>
-            <li data-id="checklist_5_5"><strong><a href="http://forums2.battleon.com/f/tm.asp?m=20707694">Evolved DragonLord</a></strong>: DESCRIPTIONBEGINNING<a href="HTML">LINKEDTEXT</a>DESCRIPTIONCONTINUED</li>
-            <li data-id="checklist_5_6"><strong><a href="http://forums2.battleon.com/f/tm.asp?m=20702717">DragonRider</a></strong>: DESCRIPTIONBEGINNING<a href="HTML">LINKEDTEXT</a>DESCRIPTIONCONTINUED</li>
+            <li data-id="checklist_5_1"><strong><a href="http://forums2.battleon.com/f/tm.asp?m=20702712">Base Armor</a></strong>: Reach level 18</li>
+            <li data-id="checklist_5_2"><strong><a href="http://forums2.battleon.com/f/tm.asp?m=20707652">Guardian</a></strong>: Fully train <a href="http://forums2.battleon.com/f/tm.asp?m=19847152">Guardian</a> through <a href="http://forums2.battleon.com/f/tm.asp?m=8911396">various quests</a></li>
+            <li data-id="checklist_5_3"><strong><a href="http://forums2.battleon.com/f/tm.asp?m=20707684">DeathKnight</a></strong>: Fully train the <a href="http://forums2.battleon.com/f/tm.asp?m=21919580">DeathKnight Armor</a> by gathering 14 <a href="http://forums2.battleon.com/f/tm.asp?m=13447262">Undead Slayer Badges</a>
+            <li data-id="checklist_5_4"><strong><a href="http://forums2.battleon.com/f/tm.asp?m=20707688">DragonLord</a></strong>: Fully train the <a href="http://forums2.battleon.com/f/tm.asp?m=19905988">DragonLord armor</a> at Sunbreeze Grove by going through the <a href="http://forums2.battleon.com/f/tm.asp?m=9769271">DragonLord training quest</a> quest 12 times</li>
+            <li data-id="checklist_5_5"><strong><a href="http://forums2.battleon.com/f/tm.asp?m=20707694">Evolved DragonLord</a></strong>: Fully train the <a href="http://forums2.battleon.com/f/tm.asp?m=19905988">DragonLord armor</a> and unlock the <a href="http://forums2.battleon.com/f/tm.asp?m=19976891">Evolved DragonLord Armor</a> at Sunbreeze Grove for 20,000 gold</li>
+            <li data-id="checklist_5_6"><strong><a href="http://forums2.battleon.com/f/tm.asp?m=20702717">DragonRider</a></strong>: Fully train the <a href="http://forums2.battleon.com/f/tm.asp?m=20046277">DragonRider Armor</a> by going through the <a href="http://forums2.battleon.com/f/tm.asp?m=10023955">DragonRider training quest</a> 14 times</li>
             <li data-id="checklist_5_7"><strong><a href="http://forums2.battleon.com/f/tm.asp?m=20707697">Pirate</a></strong>: DESCRIPTIONBEGINNING<a href="HTML">LINKEDTEXT</a>DESCRIPTIONCONTINUED</li>
             <li data-id="checklist_5_8"><strong><a href="http://forums2.battleon.com/f/tm.asp?m=20707700">Ninja</a></strong>: DESCRIPTIONBEGINNING<a href="HTML">LINKEDTEXT</a>DESCRIPTIONCONTINUED</li>
             <li data-id="checklist_5_9"><strong><a href="http://forums2.battleon.com/f/tm.asp?m=20707701">Ranger</a></strong>: DESCRIPTIONBEGINNING<a href="HTML">LINKEDTEXT</a>DESCRIPTIONCONTINUED</li>
             <li data-id="checklist_5_10"><strong><a href="http://forums2.battleon.com/f/tm.asp?m=20707706">PumpkinLord</a></strong>: DESCRIPTIONBEGINNING<a href="HTML">LINKEDTEXT</a>DESCRIPTIONCONTINUED</li>
             <li data-id="checklist_5_11"><strong><a href="http://forums2.battleon.com/f/tm.asp?m=20707709">Evolved PumpkinLord</a></strong>: DESCRIPTIONBEGINNING<a href="HTML">LINKEDTEXT</a>DESCRIPTIONCONTINUED</li>
-            <li data-id="checklist_5_12"><strong><a href="http://forums2.battleon.com/f/tm.asp?m=20707718">Necromancer</a></strong>: DESCRIPTIONBEGINNING<a href="HTML">LINKEDTEXT</a>DESCRIPTIONCONTINUED</li>
-            <li data-id="checklist_5_13"><strong><a href="http://forums2.battleon.com/f/tm.asp?m=20707730">Paladin</a></strong>: DESCRIPTIONBEGINNING<a href="HTML">LINKEDTEXT</a>DESCRIPTIONCONTINUED</li>
+            <li data-id="checklist_5_12"><strong><a href="http://forums2.battleon.com/f/tm.asp?m=20707718">Necromancer</a></strong>: Fully train the <a href="http://forums2.battleon.com/f/tm.asp?m=21736232">Necromancer Armor</a> by gathering 14 <a href="http://forums2.battleon.com/f/tm.asp?m=13447262">Undead Slayer Badges</a>
+            <li data-id="checklist_5_13"><strong><a href="http://forums2.battleon.com/f/tm.asp?m=20707730">Paladin</a></strong>: Fully train the <a href="http://forums2.battleon.com/f/tm.asp?m=21839368">Paladin Armor</a> by gathering 14 <a href="http://forums2.battleon.com/f/tm.asp?m=13447262">Undead Slayer Badges</a>
             <li data-id="checklist_5_14"><strong><a href="http://forums2.battleon.com/f/tm.asp?m=20712465">DragonSlayer</a></strong>: DESCRIPTIONBEGINNING<a href="HTML">LINKEDTEXT</a>DESCRIPTIONCONTINUED</li>
             <li data-id="checklist_5_15"><strong><a href="http://forums2.battleon.com/f/tm.asp?m=20707751">Primalized</a></strong>: DESCRIPTIONBEGINNING<a href="HTML">LINKEDTEXT</a>DESCRIPTIONCONTINUED</li>
             <li data-id="checklist_5_16"><strong><a href="http://forums2.battleon.com/f/tm.asp?m=20707758">SoulWeaver</a></strong>: DESCRIPTIONBEGINNING<a href="HTML">LINKEDTEXT</a>DESCRIPTIONCONTINUED</li>
@@ -378,109 +341,7 @@
 
       <!--BiS my dudes -->
       <div class="tab-pane" id="bis">
-          <h2>BiS Weapons</h2>
-          <table class="table table-striped">
-              <thead>
-                <tr>
-                  <th>Name</th>
-                  <th>Element</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td><a href="http://forums2.battleon.com/f/fb.asp?m=22275752">SoulForged Scythe</a></td>
-                  <td>???</td>
-                </tr><tr>
-                  <td><a href="http://forums2.battleon.com/f/fb.asp?m=22300543">Necro Paragon SoulBlade IV</a></td>
-                  <td>Bacon</td>
-                </tr><tr>
-                  <td><a href="http://forums2.battleon.com/f/fb.asp?m=22275752">SoulForged Scythe</a></td>
-                  <td>Darkness</td>
-                </tr><tr>
-                  <td><a href="http://forums2.battleon.com/f/fb.asp?m=20944816">Shiny Frostskull Mace V</a> or <a href="http://forums2.battleon.com/f/fb.asp?m=22256144">Wormwood's Axe</a></td>
-                  <td>Disease</td>
-                </tr><tr>
-                  <td><a href="http://forums2.battleon.com/f/fb.asp?m=22073111">Marked Zorbak's Staff</a> or <a href="http://forums2.battleon.com/f/fb.asp?m=22008463">Zorbak's Staff</a></td>
-                  <td>Ebil</td>
-                </tr><tr>
-                  <td><a href="http://forums2.battleon.com/f/fb.asp?m=22275752">SoulForged Scythe</a></td>
-                  <td>Energy</td>
-                </tr><tr>
-                  <td><a href="http://forums2.battleon.com/f/fb.asp?m=21223076">Sneegion Sword of DOOM </a> or <a href="http://forums2.battleon.com/f/fb.asp?m=22272780">Dreadwyrm Katana</a></td>
-                  <td>Evil</td>
-                </tr><tr>
-                  <td><a href="http://darksouls3.wiki.fextralife.com/Sovereignless+Soul">Sovereignless Soul</a></td>
-                  <td>Fire</td>
-                </tr><tr>
-                  <td><a href="http://darksouls3.wiki.fextralife.com/Soul+of+an+Intrepid+Hero">Soul of an Intrepid Hero</a></td>
-                  <td>Good</td>
-                </tr><tr>
-                  <td><a href="http://darksouls3.wiki.fextralife.com/Soul+of+a+Nameless+Soldier">Soul of a Nameless Soldier</a></td>
-                  <td>Ice</td>
-                </tr><tr>
-                  <td><a href="http://darksouls3.wiki.fextralife.com/Large+soul+of+an+Intrepid+Hero">Large soul of an Intrepid Hero</a></td>
-                  <td>Light</td>
-                </tr><tr>
-                  <td><a href="http://darksouls3.wiki.fextralife.com/Large+Soul+of+a+Nameless+Soldier">Large Soul of a Nameless Soldier</a></td>
-                  <td>Metal</td>
-                </tr><tr>
-                  <td><a href="http://darksouls3.wiki.fextralife.com/Soul+of+a+Seasoned+Warrior">Soul of a Seasoned Warrior</a></td>
-                  <td>Nature</td>
-                </tr><tr>
-                  <td><a href="http://darksouls3.wiki.fextralife.com/Soul+of+a+Weary+Warrior">Soul of a Weary Warrior</a></td>
-                  <td>None</td>
-                </tr><tr>
-                  <td><a href="http://darksouls3.wiki.fextralife.com/Large+Soul+of+a+Seasoned+Warrior">Large Soul of a Seasoned Warrior</a></td>
-                  <td>Poison</td>
-                </tr><tr>
-                  <td><a href="http://darksouls3.wiki.fextralife.com/Large+Soul+of+a+Weary+Warrior">Large Soul of a Weary Warrior</a></td>
-                  <td>Silver</td>
-                </tr><tr>
-                  <td><a href="http://darksouls3.wiki.fextralife.com/Soul+of+a+Crestfallen+Knight">Soul of a Crestfallen Knight</a></td>
-                  <td>Stone</td>
-                </tr><tr>
-                  <td><a href="http://darksouls3.wiki.fextralife.com/Soul+of+an+Old+Hand">Soul of an Old Hand</a></td>
-                  <td>Water</td>
-                </tr><tr>
-                  <td><a href="http://darksouls3.wiki.fextralife.com/Large+Soul+of+a+Crestfallen+Knight">Large Soul of a Crestfallen Knight</a></td>
-                  <td>Wind</td>
-                </tr>
-              </tbody>
-            </table>
-
-            <h2>BiS Accessories</h2>
-        <table class="table table-striped">
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Slot</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><a href="http://forums2.battleon.com/f/fb.asp?m=22275752">SoulForged Scythe</a></td>
-              <td>Helm</td>
-            </tr><tr>
-              <td><a href="http://forums2.battleon.com/f/fb.asp?m=22300543">Necro Paragon SoulBlade IV</a></td>
-              <td>Cape</td>
-            </tr><tr>
-              <td><a href="http://forums2.battleon.com/f/fb.asp?m=22275752">SoulForged Scythe</a></td>
-              <td>Necklace</td>
-            </tr><tr>
-              <td><a href="http://forums2.battleon.com/f/fb.asp?m=20944816">Shiny Frostskull Mace V</a> or <a href="http://forums2.battleon.com/f/fb.asp?m=22256144">Wormwood's Axe</a></td>
-              <td>Ring</td>
-            </tr><tr>
-              <td><a href="http://forums2.battleon.com/f/fb.asp?m=22073111">Marked Zorbak's Staff</a> or <a href="http://forums2.battleon.com/f/fb.asp?m=22008463">Zorbak's Staff</a></td>
-              <td>Belt</td>
-            </tr><tr>
-              <td><a href="http://forums2.battleon.com/f/fb.asp?m=22275752">SoulForged Scythe</a></td>
-              <td>Bracer</td>
-            </tr><tr>
-              <td><a href="http://forums2.battleon.com/f/fb.asp?m=21223076">Sneegion Sword of DOOM </a> or <a href="http://forums2.battleon.com/f/fb.asp?m=22272780">Dreadwyrm Katana</a></td>
-              <td>Trinket</td>
-            </tr>
-          </tbody>
-        </table>
+          hola
       </div>
 
       <div class="tab-pane" id="tabFAQ">      
@@ -490,69 +351,13 @@
         <p>Only if you're looking for a better understanding of the story. Otherwise, no.</p>
 
         <h3>Why is Book 2 so short?</h3>
-        <p>Geopetal explained why <a href="http://www.dragonfable.com/gamedesignnotes/if-you-can-dodge-a-wrench-5627">here</a>.</p>
+        <p>DragonFable staff were undergoing major changes at the time due to AdventureQuest Worlds. You can read more about it <a href="http://www.dragonfable.com/gamedesignnotes/if-you-can-dodge-a-wrench-5627">here</a>.</p>
 
         <h3>Can I use this for multiple characters?</h3>
         <p>Yes. There's a profile feature where you can create, edit, delete, import and export your own profiles. You can find it by clicking the gear icon on the top left.</p>
 
         <h3>How are changes saved?</h3>
         <p>Changes are saved on your browser's local storage. Clearing your browser's cache will also clear your saved changes. Alternatively, you can export your profile and save it on your computer.</p>
-      </div>
-
-      <!-- ARMOR START -->
-      <div class="tab-pane" id="tabArmors">
-      <strong><h2>Armor Checklist <span id="armors_overall_total"></span></h2></strong>
-        <ul class="table_of_contents">
-          <li><a href="#Helms">Sunbreeze Grove</a> <span id="armors_nav_totals_1"></span></li>
-          <li><a href="#Chests">Shadow of the Wind Village</a> <span id="armors_nav_totals_2"></span></li>
-          <li><a href="#Gauntlets">Osprey Cove</a> <span id="armors_nav_totals_3"></span></li>
-          <li><a href="#Leggings">The Sandsea</a> <span id="armors_nav_totals_4"></span></li>
-          <li><a href="#necropolis">The Necropolis</a> <span id="armors_nav_totals_5"></span></li>
-          <li><a href="#ravenloss">Ravenloss</a> <span id="armors_nav_totals_8"></span></li>
-          <li><a href="#dragesvard">Dragesvard</a> <span id="armors_nav_totals_6"></span></li>
-          <li><a href="#popsprocket">Popsprocket</a> <span id="armors_nav_totals_7"></span></li>
-        </ul>
-
-        <div class="form-group">
-          <input type="search" id="armors_search" class="form-control" placeholder="Start typing to filter results..." />
-        </div>
-
-        <div id="armors_list">
-          <h3 id="Helms"><a href="#Helms_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Sunbreeze Grove<span id="armors_totals_1"></span></h3>
-          <ul id="Helms_col" class="collapse in">
-            <li data-id="armors_1_1"><a href="http://forums2.battleon.com/f/tm.asp?m=19905988">DragonLord Armor</a></li>
-          </ul>
-          <h3 id="Chests"><a href="#Chests_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Shadow of the Wind Village<span id="armors_totals_2"></span></h3>
-          <ul id="Chests_col" class="collapse in">
-            <li data-id="armors_2_1"><a href="http://forums2.battleon.com/f/tm.asp?m=21920690">Ninja Armor</a></li>
-          </ul>
-          <h3 id="Gauntlets"><a href="#Gauntlets_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Osprey Cove<span id="armors_totals_3"></span></h3>
-          <ul id="Gauntlets_col" class="collapse in">
-            <li data-id="armors_3_1"><a href="http://forums2.battleon.com/f/tm.asp?m=21953718">Pirate Armor</a></li>
-          </ul>
-          <h3 id="Leggings"><a href="#Leggings_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>The Sandsea<span id="armors_totals_4"></span></h3>
-          <ul id="Leggings_col" class="collapse in">
-            <li data-id="armors_4_1"><a href="http://forums2.battleon.com/f/tm.asp?m=19925149">Ranger Armor</a></li>
-          </ul>
-          <h3 id="necropolis"><a href="#necropolis_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>The Necropolis<span id="armors_totals_5"></span></h3>
-          <ul id="necropolis_col" class="collapse in">
-            <li data-id="armors_5_1"><a href="http://forums2.battleon.com/f/tm.asp?m=21839368">Paladin Armor</a></li>
-            <li data-id="armors_5_2"><a href="http://forums2.battleon.com/f/tm.asp?m=21736232">Necromancer Armor</a></li>
-            <li data-id="armors_5_3"><a href="http://forums2.battleon.com/f/tm.asp?m=21919580">DeathKnight Armor</a></li>
-          </ul>
-          <h3 id="ravenloss"><a href="#ravenloss_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Ravenloss<span id="armors_totals_8"></span></h3>
-          <ul id="ravenloss_col" class="collapse in">
-            <li data-id="armors_8_1"><a href="http://forums2.battleon.com/f/tm.asp?m=19399175">SoulWeaver Armor</a></li>
-          </ul>
-          <h3 id="dragesvard"><a href="#dragesvard_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Dragesvard<span id="armors_totals_6"></span></h3>
-          <ul id="dragesvard_col" class="collapse in">
-            <li data-id="armors_6_1"><a href="http://forums2.battleon.com/f/tm.asp?m=21921654">DragonSlayer Armor</a></li>
-          </ul>
-          <h3 id="popsprocket"><a href="#popsprocket_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Popsprocket<span id="armors_totals_7"></span></h3>
-          <ul id="popsprocket_col" class="collapse in">
-            <li data-id="armors_7_1"><a href="http://forums2.battleon.com/f/tm.asp?m=21817341">Technomancer Armor</a></li>
-          </ul>
-        </div>
       </div>
 
       <div class="tab-pane" id="tabOptions">
