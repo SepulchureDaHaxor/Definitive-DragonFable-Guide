@@ -444,9 +444,6 @@ var profilesKey = 'darksouls3_profiles';
         }), new Jets({
             searchTag: '#item_search',
             contentTag: '#item_list h4, #item_list ul'// This does not mean that we are searching inside the content of both <h4> and <ul> tags
-        }), new Jets({
-            searchTag: '#armors_search',
-            contentTag: '#armors_list ul'
         })];
 
         $('#playthrough_search').keyup(function() {
