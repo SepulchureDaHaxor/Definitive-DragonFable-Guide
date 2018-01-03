@@ -1,4 +1,4 @@
-var profilesKey = 'darksouls3_profiles';
+var profilesKey = 'dragonfable_profiles';
 
 (function($) {
     'use strict';
