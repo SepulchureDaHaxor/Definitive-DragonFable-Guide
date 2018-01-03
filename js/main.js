@@ -219,7 +219,7 @@ var profilesKey = 'dragonfable_profiles';
         if (!('hidden_categories' in profiles[profilesKey][profile_name]))
             profiles[profilesKey][profile_name].hidden_categories = {
                 f_sidequest: false,
-                f_useless: false,
+                f_useless: true,
                 f_seasonal: true
             };
     }
