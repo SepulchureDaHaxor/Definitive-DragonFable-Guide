@@ -4,3 +4,4 @@ A Chronology guide, based on ZKjellberg's Dark Souls 3 Cheat Sheet (which was ba
 # Pull Request Guidelines
 1. All Pull Requests to master must be tested beforehand.
 2. All Pull Requests should have a title and preferably a description summarizing the update.
+Permissions test #7
